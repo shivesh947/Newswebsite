@@ -1,0 +1,21 @@
+body{
+    background: #e3dddd;
+}
+#categorieslist{
+    padding-bottom:5px;
+    padding-top: 5px;
+
+}
+#categorieslist .col{
+        width: 100px;
+        height: 50px;
+        padding: 0;
+}
+#categorieslist button{
+    width: 100%;
+    height: 50px;
+}
+#categorieslist .col :hover{
+    box-shadow: 2px 2px 2px black;
+}
+

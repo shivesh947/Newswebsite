@@ -1,0 +1,11 @@
+#carouselExampleControls img{
+    width: 100vw;
+    height: 400px;
+  }
+  #newslist .row{
+      margin:0;
+      box-shadow: 3px 4px 6px 4px #808080ba;
+  }
+  #categorieslist{
+      margin:0;
+  }
