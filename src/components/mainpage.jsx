@@ -28,7 +28,7 @@ class Mainpage extends Component {
                       style={{height:"200px"}}
                     />
                   </div>
-                  <div className="col-md-8">
+                  <div className="col-md-8" style={{minWidth: "630px"}}>
                     <div className="card-body">
                       <h5 className="card-title">
                         {apidata.articles[i].title}
@@ -103,8 +103,9 @@ class Mainpage extends Component {
           </div>
         </div>
         <br/>
+        <h4>LATEST NEWS</h4>
         <div className="row" id="newslist">
-          <h4>LATEST NEWS</h4>
+          
           {rows}
         </div>
       </div>

@@ -26,11 +26,11 @@ class Mainpage extends Component {
                   Home{" "}
                 </Link>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <Link className="nav-link" to="/weather">
                   Weather
                 </Link>
-              </li> */}
+              </li>
             </ul>
           </div>
         </nav>
