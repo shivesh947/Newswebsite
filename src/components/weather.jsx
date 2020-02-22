@@ -36,7 +36,7 @@ class Weather extends Component {
   }
   value=async (position)=>{
     console.log(position)
-    const url = "https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/c4c85d231b9981e2cfee8e119c2e8352/"+position.coords.latitude+","+position.coords.longitude;
+    const url = "https://api.darksky.net/forecast/c4c85d231b9981e2cfee8e119c2e8352/"+position.coords.latitude+","+position.coords.longitude;
     const response = await fetch(url);
     const jsondata = await response.json();
     console.log(jsondata)
