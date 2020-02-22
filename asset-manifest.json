@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/shivesh947/Newswebsite/static/css/main.725ac1a7.chunk.css",
+    "main.js": "/shivesh947/Newswebsite/static/js/main.878adee9.chunk.js",
+    "main.js.map": "/shivesh947/Newswebsite/static/js/main.878adee9.chunk.js.map",
+    "runtime-main.js": "/shivesh947/Newswebsite/static/js/runtime-main.db7bafdb.js",
+    "runtime-main.js.map": "/shivesh947/Newswebsite/static/js/runtime-main.db7bafdb.js.map",
+    "static/js/2.0a668ebf.chunk.js": "/shivesh947/Newswebsite/static/js/2.0a668ebf.chunk.js",
+    "static/js/2.0a668ebf.chunk.js.map": "/shivesh947/Newswebsite/static/js/2.0a668ebf.chunk.js.map",
+    "index.html": "/shivesh947/Newswebsite/index.html",
+    "precache-manifest.1241b66319537e8ebd76565d2f896b41.js": "/shivesh947/Newswebsite/precache-manifest.1241b66319537e8ebd76565d2f896b41.js",
+    "service-worker.js": "/shivesh947/Newswebsite/service-worker.js",
+    "static/css/main.725ac1a7.chunk.css.map": "/shivesh947/Newswebsite/static/css/main.725ac1a7.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db7bafdb.js",
+    "static/js/2.0a668ebf.chunk.js",
+    "static/css/main.725ac1a7.chunk.css",
+    "static/js/main.878adee9.chunk.js"
+  ]
+}
