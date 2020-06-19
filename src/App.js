@@ -15,12 +15,17 @@ class App extends Component{
     newsdata: null,
   };
   async componentDidMount() {
-    const url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=7c642db6ea3547b584cb66c897422530";
+    try {
+  const url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=7c642db6ea3547b584cb66c897422530";
     const response = await fetch(url);
     const data = await response.json();
     var newdata=JSON.stringify(data);
     this.setState({ newsdata: newdata, loading: true });
     console.log(newdata);
+} catch(err) {
+  alert(err); // Failed to fetch
+}
+    
   }
   render(){
     return(
