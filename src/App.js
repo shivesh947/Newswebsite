@@ -20,6 +20,7 @@ class App extends Component{
     const data = await response.json();
     var newdata=JSON.stringify(data);
     this.setState({ newsdata: newdata, loading: true });
+    console.log(newdata);
   }
   render(){
     return(
